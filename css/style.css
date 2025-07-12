@@ -1,0 +1,148 @@
+*{
+  box-sizing: border-box;
+}
+
+.page{
+  display: grid;
+  /* grid-template-columns: 1fr 1440px 1fr; */
+}
+
+.header{
+  gap: var(--h-rows-space);
+}
+
+.header-top{
+  height: var(--h-top-h);
+  padding-left: 32px;
+  padding-right: 32px;
+  background-color: var(--h-top-bg);
+}
+
+.geo, .phone{
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+.header-block{
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.header-body_middle{
+  justify-content: space-between;
+}
+
+.logo{
+  width: var(--h-logo-size);
+  height: var(--h-logo-size);
+  flex-shrink: 0;
+  background-color: var(--h-clr-1);
+}
+
+.search_frame{
+  border: solid 1px var(--h-search-border-clr);
+  padding: 4px;
+}
+
+.search_input{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.search_input:focus{
+  outline: none;
+  border: solid 0px;
+}
+
+.header-body{
+  margin-left: 30px;
+  gap: var(--h-rows-space);
+}
+
+.header-body_lang{
+  margin-left: 37px;
+  margin-right: 37px;
+}
+
+.counts-on-btn{
+  position: relative;
+}
+.header-body_counts{
+  width: 20px;
+  height: 20px;
+  background-color: var(--h-clr-1);
+  color: var(--h-clr-2);
+  position: absolute;
+  top: -10px;
+  right: -5px;
+  flex-shrink: 0;
+}
+
+/* common buttons */
+
+.btn{
+  border-radius: 4px;
+  gap: 8px;
+}
+
+.border-btn{
+  border: solid var(--h-btn-border-clr) 1px;
+}
+
+.filled-btn{
+  background-color: var(--h-btn-clr);
+}
+
+.header-top_btn{
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.header-body_btn{
+  height: var(--h-middle-h);
+  width: var(--h-middle-h);
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.cloud_btn{
+  height: var(--h-bottom-h);
+  margin-left: 9px;
+  margin-right: 9px;
+  padding-left: 19px;
+  padding-right: 19px;
+  flex-shrink: 0;
+}
+
+/* specials buttons */
+
+.search_btn{
+  border-radius: 3px;
+  width: var(--h-btn-search-w);
+  color: var(--h-btn_search-text-clr);
+}
+
+.build-pc{
+  color: var(--h-btn-text-clr);
+}
+
+.menu-btn, .search_btn{
+  background-color: var(--h-btn-clr-2);
+}
+
+.menu-btn{
+  width: var(--h-btn-menu-w);
+  flex-shrink: 0;
+}
+
+
+@media (min-width: 601px){
+
+  .page{
+    grid-template-columns: 1fr 1440px 1fr;
+  }
+
+  .header-body_lang__mobile, .search-mobile{
+    display: none;
+  }
+}

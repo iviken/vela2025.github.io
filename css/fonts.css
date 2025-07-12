@@ -1,0 +1,35 @@
+*{
+    font-family: 'Calibri';
+}
+
+.fnt-12{
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.fnt-14{
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.fnt-16{
+    font-size: 16px;
+    font-weight: normal;
+}
+
+@media (max-width: 600px){
+    
+    .fnt-16{
+        font-size: 14px;
+    }
+}
+
+/* specials */
+
+.ru{
+    color: black;
+}
+
+.en{
+    color: rgba(52, 58, 63, .2);
+}

@@ -1,0 +1,48 @@
+.eff-1{
+    transition: color var(--transition-time);
+}
+.eff-1:hover{
+    color: var(--h-clr-1);
+    text-decoration: underline;
+}
+
+.eff-2{
+    transition: all .15s;
+}
+.eff-2:hover{
+    color: var(--h-clr-2);
+    background-color: var(--h-clr-1);
+}
+
+.eff-3{
+    transition: all var(--transition-time);
+}
+.eff-3:hover{
+    background-color: var(--h-clr-3);
+}
+.eff-3:hover>svg>path{
+    fill: var(--h-clr-1);
+    /* stroke: var(--h-clr-1); */
+}
+
+.eff-4{
+    transition: all var(--transition-time);
+}
+.eff-4:hover{
+    color: var(--h-clr-1);
+}
+.eff-4:hover>svg>g>path{
+    fill: var(--h-clr-1);
+    fill-opacity: 1;
+}
+.eff-4:hover>svg>path{
+    fill: var(--h-clr-1);
+    fill-opacity: 1;
+}
+
+.search_frame{
+    transition: all var(--transition-time);
+}
+.search_frame:hover{
+    border: solid 1px var(--h-clr-1);
+}

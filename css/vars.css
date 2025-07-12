@@ -1,0 +1,40 @@
+:root {
+  /* Colors */
+
+  /* - common */
+  --h-clr-1: #4888FF;
+  --h-clr-2: #F4F4F4;
+
+  --h-clr-3: #D4D9DD;
+
+  /* - bg */
+  --h-top-bg: #F4F4F4;
+  --h-btn-clr: #F4F4F4;
+  --h-btn-clr-2: #4888FF;
+
+  /* - border */
+  --h-btn-border-clr: #D3D3D3;
+  --h-search-border-clr: rgba(72, 136, 255, 0.2);
+
+  /* - font */
+  --h-btn-text-clr: #4888FF;
+  --h-btn_search-text-clr: white;
+
+  /* Fonts */
+
+  /* Effects */
+  --transition-time: .25s;
+
+  /* Units */
+
+  /* - common */
+  --h-top-h: 35px;
+  --h-middle-h: 48px;
+  --h-bottom-h: 42px;
+  --h-rows-space: 16px;
+
+  /* - specials */
+  --h-btn-search-w: 101px;
+  --h-btn-menu-w: 101px;
+  --h-logo-size: 80px;
+}
